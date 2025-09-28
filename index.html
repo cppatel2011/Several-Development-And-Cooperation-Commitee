@@ -2,11 +2,113 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gradient Navbar with Search</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <center><h1>Several-Development-And-Cooperation-Commitee</h1></center>
+    <marquee>Welcome all rights researved</marquee>
+  <style>
+    body{
+        background:linear-gradient(lightblue,rgb(255, 255, 255),rgb(133, 202, 255));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    ::selection{
+        background: rgb(0, 179, 255);
+        color:navy;
+    }
+    
+    p{
+        text-align: justify;
+    }
+    .navbar-gradient {
+      /* Gradient background from white to black (you can reverse or change) */
+      background: linear-gradient(to top, #7d7d7d, #000000);
+    }
+    .navbar-gradient .navbar-brand,
+    .navbar-gradient .nav-link,
+    .navbar-gradient .form-control,
+    .navbar-gradient .btn {
+      color: white !important;
+    }
+    .navbar-gradient .form-control {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.5);
+    }
+    .navbar-gradient .form-control::placeholder {
+      color: rgba(255,255,255,0.7);
+    }
+    .navbar-gradient .nav-link:hover {
+      color: #dddddd !important;
+    }
+    .navbar-gradient .navbar-toggler-icon {
+      filter: invert(1);
+    }
+    .navbar-gradient .btn {
+      border-color: rgba(255,255,255,0.7);
+    }
+    .navbar-gradient .btn:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+
+  </style>
 </head>
 <body>
-    <center><h1>Several-Development-And-Cooperation-Commitee</h1></center>
+
+  <nav class="navbar navbar-expand-lg navbar-gradient">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Several-Development-And-Cooperation-Commitee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarContent" aria-controls="navbarContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hathibachao">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ltr1">Letters</a></li>    
+        </ul>
+
+        <!-- Search form -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search"aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+
+      </div>
+
+    </div>
+  </nav>
+<h2>Elephant Related News And Articles</h2>
+
+</h2><center><img class="img_fluid" src="_nb_15_9_2023_2.jpg" width="1000" height="1000"> </h2> </center>
+<span id="ltr1">
+<h2><center><a href="DocScanner 17-May-2025 4-07 pm.jpg">Letter_to_Hon.MpTokhanSahu</a></center></h2><h2><center><a href="Letter_to_hon.Pm_.html">Letter_to_hon.Pm</a></center></h2>
+</span>
+<div id="hathibachao">
+  <h3>Services:
+<ul>
+<li type="square">
+Hathi Bachao Hathi Bhagao
+</li></h3>
+</ul></h3>
+</div>
+<center><div id="contact">
+<hr><center><h2>Contact</h2></center><h4>Mo.And Phone no. : 9329692450
+    Adress: Bahatarai, Geetanjali City phase-II, Qn.299, Bilaspur, 495003, Chattishgarh, India
+
+</h4></center></div>
+
 </body>
+</html>
 
 </html>
